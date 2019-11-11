@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272e;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+}
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: dodgerblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-board {
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    width:200px;
+    margin: 20px auto;
+    font-size: 40px;
+    position: relative;
+}
+
+.badge {
+    background: red;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.green-glow {
+    border: 4px soliid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+    background: #3bf53b;
+}
+
+.red-glow {
+    border: 4px soliid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+    background: #9b1a1a;
+}
+
+.yellow-glow {
+    border: 4px soliid #f1f145; 
+    box-shadow: 0 0 10px #ecfa2f;
+    background: #fdfb6b;
+}
+
+#user-badge {
+    position: absolute;
+    top:30px;
+    left:-20px;
+}
+
+#comp-badge {
+    position: absolute;
+    top:30px;
+    right:-45px;
+}
+
+.result {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+.choice {
+    display: inline-block;
+    border: 3px solid lightgreen;
+    border-radius: 50%;
+    padding:10px;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: lightseagreen;
+}
+
+#action-message {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
